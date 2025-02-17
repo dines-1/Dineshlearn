@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="four.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Number Guessing Game</h1>
+        <p>Try and guess a random number between 1 to 100.</p>
+        <p>You have 10 attempts to guess the right number.</p>
+        <form class="form">
+            <label for="text" id="guess">Guess a number:</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="sumt" value="Submit Guess" class="guessSubmit">
+        </form>
+
+        <div class="result">
+            <p>Previous guesses: <span class="guesses"></span></p>
+            <p>Guesses remaining: <span class="lastresult">10</span></p>
+            <p class="loworhi"></p>
+        </div>
+    </div>
+</body>
+<script src="four.js"></script>
+</html>
